@@ -19,7 +19,7 @@
 # same directory as this script, and run "./boost.sh". Grab a cuppa. And voila.
 #===============================================================================
 
-: ${BOOST_LIBS:="program_options random regex graph random chrono thread signals filesystem system date_time"}
+: ${BOOST_LIBS:="program_options random test math"}
 : ${IPHONE_SDKVERSION:=`xcodebuild -showsdks | grep iphoneos | egrep "[[:digit:]]+\.[[:digit:]]+" -o | tail -1`}
 : ${OSX_SDKVERSION:=10.8}
 : ${XCODE_ROOT:=`xcode-select -print-path`}
